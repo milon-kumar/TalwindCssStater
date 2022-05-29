@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn {
+    @apply
+    px-5
+    py-1 text-sm 
+    transition 
+    border
+    rounded-full 
+}
+.purple-btn{
+    @apply
+     text-purple-500 
+    border-purple-200 
+    hover:bg-purple-200
+}
+.grenn-btn{
+    @apply 
+     text-green-500 
+    border-green-200 
+    hover:bg-green-200
+}
